@@ -1,0 +1,84 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 30px;
+	color: #2168b1;
+	border-bottom: solid 1px #aaa;
+	margin-bottom: 1em;
+	font-family: 'Oswald', sans-serif;
+}
+
+fieldset {
+	padding: 10px;
+	border: 1px solid #888;
+	margin: 25px 0;
+	background-color: #F9F9C5;
+}
+
+input {
+	font-size: 20px;
+}
+
+form#order div, form#signup div{
+	padding-bottom: 10px;	
+}
+
+#order input {
+	border: 1px solid black;
+}
+
+#order input:focus {
+	border: 1px solid #2168B1 !important;
+	box-shadow: 0 0 3px #2168B1 !important;
+}
+
+input:focus {
+	outline-offset: 0px !important;
+	outline: none !important;
+}
+
+form#order .label, form#signup .label {
+	display: block;
+	clear: left;
+	float: left;
+	width: 175px;
+	text-align: right;
+	padding: 7px 15px 0 0;
+	text-transform: uppercase;	
+	font-weight: bold;
+}
+
+form#signup .label {
+	width: 200px;	
+}
+
+.labelBlock {
+	text-transform: uppercase;
+	font-weight: bold;	
+	display: block;
+	padding-bottom: 0 !important;
+	clear: both;
+	margin-top: 10px;
+}
+
+form#order select, form#signup select {
+	display: inline-block;
+	margin-top: 8px;	
+}
+
+form#order input[type="radio"], form#signup input[type="radio"], form#signup input[type="checkbox"] {
+   display: inline-block;
+   margin-top: 10px;	
+}
+
+form .indent, #submit {
+	margin-left: 215px;	
+}
+
